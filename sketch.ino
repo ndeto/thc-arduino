@@ -10,7 +10,7 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 Thc Thc(2,3,4,5,13); //This bracket will contain the pin numbers we are to use,It is meant to initialize them to output/input mode
-//Thc Thc(Fan In,Fan Out, Heater,Humidifier)
+//Thc Thc(Fan In,Fan Out, Heater,Humidifier,Error Pin)
 
 int err =13;
 void setup()
